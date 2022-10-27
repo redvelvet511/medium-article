@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400;1,500&family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap');
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
 body {
   color: #494949;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: lighter;
   font-family: 'Frank Ruhl Libre', serif;
   margin: 0;
 }
+
 h1, h2 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: bold;
@@ -19,13 +27,13 @@ a {
 }
 
 .banner {
-  background-image: url("https://www.pinterest.com/pin/create/button?guid=d23JwxLfnhkC-1&url=https%3A%2F%2Fgreatist.com%2Fhealth%2Fhow-to-lucid-dream&media=https%3A%2F%2Fpost.greatist.com%2Fwp-content%2Fuploads%2Fsites%2F2%2F2020%2F01%2F132001-Is_It_Possible_to_Give_Yourself_Lucid_Dreams-1296x728-Header.jpg&description=How%20to%20Lucid%20Dream%3A%206%20Techiques%20to%20Try%2C%20What%20It%20Is");
+  background-image: url("https://source.unsplash.com/random/1000x500");
   background-size: cover;
   color: white;
   padding: 120px 0;
 }
 .banner h1 {
-  font-size: 35px;
+  font-size: 40px;
 }
 .banner p {
   font-size: 30px;
@@ -33,19 +41,15 @@ a {
   font-weight: lighter;
   opacity: 0.8;
 }
-.container {
-  width: 50px;
-  margin: 50px auto;
-}
-.link-medium {
+.link-sleep {
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
   color: #636363;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 30px;
   font-style: italic;
 }
-.link-medium:hover {
-  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+.link-sleep:hover {
+  background-image: linear-gradient(to bottom, rgb(219, 148, 224), rgb(211, 154, 199));
 }
 
 
